@@ -1,4 +1,7 @@
+
+
 body {
+
     /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
@@ -9,5 +12,22 @@ body {
     //  }
     //  h1 {
     //   color: black;
+    h1 {
+      background: linear-gradient(90deg, #4C47E6 0%, #B98CFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+      .content {
+        font-family: "Roboto Mono";
+        font-weight: 400;
+      }
+      .filetree-sidebar{
+        font-family: "Fira Code";
+        font-weight: 300;
+      }
+    .navbar {
+      font-family: 'Inconsolata';
+    }
     //  }
 }
+
